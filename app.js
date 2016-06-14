@@ -41,11 +41,11 @@ function render(req, res) {
 }
 
 app.get('/', function (req, res) {
-    res.send('<html><body style="background-color: #ffff00;"><h1>My web app http API 1.0!</h1></body></html>');
+    res.send('<html><body style="background-color: #ff0;"><h1>My web app http API 2.0!</h1></body></html>');
 });
 
 app.get('/test/', function (req, res) {
-    res.send('<html><body style="background-color: #ffff00;"><h1>Hello ADV-FE2   !!!!!!</h1></body></html>');
+    res.send('<html><body style="background-color: #ff0;"><h1>Hello ADV-FE2   !!!!!!</h1></body></html>');
 });
 
 app.all('/api/' + apiVersion + '/*', function (req, res) {
