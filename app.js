@@ -45,7 +45,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/test/', function (req, res) {
-    res.send('<html><body style="background-color: #ffff00;"><h1>Hello ADV_FE2!!!!!!</h1></body></html>');
+    res.send('<html><body style="background-color: #ffff00;"><h1>Hello ADV-FE2   !!!!!!</h1></body></html>');
 });
 
 app.all('/api/' + apiVersion + '/*', function (req, res) {
